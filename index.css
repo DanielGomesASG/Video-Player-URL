@@ -1,0 +1,43 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: rgb(31, 31, 31);
+  scale: 2;
+}
+
+.labelURL {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+}
+
+.videoUrl {
+  width: 80%;
+  max-width: 300px;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.buttonLoad {
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 18.5%;
+  font-size: 20px;
+}
+
+.videoPlayer {
+  color: white;
+  font-size: 30px;
+}
+
+@media (max-width: 768px) {
+  body {
+    scale: 0.6;
+  }
+}

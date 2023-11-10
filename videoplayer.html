@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="style-src 'self' 'unsafe-inline'; object-src 'none'">
+
+    <title>Video Player</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <div id="player-container" class="player">
+        <label for="videoUrl" class="labelURL">URL do Vídeo:</label>
+        <input type="text" id="videoUrl" class="videoUrl" placeholder="Insira a URL do vídeo">
+        <button id="buttonLoad" class="buttonLoad">Carregar Vídeo</button>
+
+        <hr>
+
+        <video id="videoPlayer" class="videoPlayer" controls crossorigin width="600" >
+            Seu navegador não suporta o elemento de vídeo.
+        </video>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
