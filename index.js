@@ -14,7 +14,6 @@ document.addEventListener("DOMContentLoaded", function () {
     // Validar a URL do vídeo
     if (isValidVideoUrl(url)) {
       videoPlayer.src = url;
-      videoPlayer.load();
     } else {
       // Exibir mensagem de erro se a URL for inválida
       videoURL.setCustomValidity("URL do vídeo inválida.");
